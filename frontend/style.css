@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+
+/* Fenti navbar */
+.topnav {
+    background-color: #409d9b;
+    overflow: hidden;
+}
+  
+  /* Navbar-on belüli linkek */
+.topnav a {
+    float: left;
+    display: block;
+    color: #feeb97;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  /* Link on hover effect */
+.topnav a:hover {
+    background-color: #034561;
+    color: #feeb97;
+}
+  
+  /* Aktív page háttere és színe */
+.topnav a.active {
+    background-color: #034561;
+    color: #feeb97
+    ;
+}
+  
+.topnav .icon {
+    display: none;
+  }
+
+  /* Video beállításai */
+.container {
+  position:relative; 
+  background-color:#409d9b;}
+
+.container video {
+  position: relative;
+  z-index: 0; 
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.overlay .overlaytext{
+  text-align: center;
+}
+
+.overlay .overlaybutton{
+  
+}
+
+
+  /*About us*/
+.section{
+    padding: 20px 0;
+    
+}
+
+/*Contacts*/
+.section b{
+    background: #333;
+    color: white;
+}
